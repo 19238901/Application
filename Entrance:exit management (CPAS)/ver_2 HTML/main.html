@@ -1,0 +1,38 @@
+<?php
+
+  $id = $_POST["id"];
+
+?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="utf-8">
+    <title>Progate</title>
+  </head>
+  <body>
+    <header>
+        <img src="./image/cps.png" class="cps">
+    </header>
+    <main>
+        <h1 class="hello">Hello!　<?php echo =$id; ?></h1>
+        <h2 class="str">Please select the function you want to use!</h2>
+        <div>
+            <input type="button" class="function" onclick="location.href='record.html'" value="RECORD">
+            <input type="button" class="function" onclick="location.href='search.html'" value="RESERCH">
+            <input type="button" class="function" onclick="location.href='log_all.html'" value="LOG">
+        </div>
+        <div>
+            <input type="button" class="function" value="RESERVE">
+            <input type="button" class="function" value="VIEW" onclick="location.href='view.html'">
+            <input type="button" class="function" value="NEWS/SCHEDULE">
+        </div>
+    </main>
+    <footer>
+        <input type="button" class="out" value="LOGOUT" onclick="location.href='login.html'">
+        <h1>広告募集！！</h1>
+        <h4>システム開発費は ” <span>aibo</span> ” でお願いします。</h4>
+    </footer>
+  </body>
+  
+</html>

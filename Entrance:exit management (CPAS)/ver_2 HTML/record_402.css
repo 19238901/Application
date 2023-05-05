@@ -1,0 +1,178 @@
+.title {
+    color: #00665e;
+    font-size:xx-large;
+  }
+.out{
+    float: right;
+    font-size: large;
+    height: 50px;
+    width: 150px;
+}
+
+header{
+    margin-top: 30px;
+    text-align: center;
+}
+main{
+    /*background-color: #20234de5;*/
+    width: 100%;
+    margin-bottom: 100px;
+}
+footer{
+    margin-top: 30px;
+}
+/*button{*/
+button{
+    display:inline-block;
+    height: 100px;
+    width: 250px;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.str{
+    text-align: center;
+    /*color : white;*/
+}
+span{
+    color: rgb(255, 0, 0);
+}
+img.cps{
+    width: 100%;
+}
+.hello{
+    margin-left: 20px;
+    /*color : white;*/
+}
+.back{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: large;
+
+}
+.back i{
+    font-size: 50px;
+    text-align: center;
+	margin-right: 4px;
+	vertical-align: -4px;
+}
+.btn{
+    text-align: left;
+    height: 60px;
+}
+.status{
+    text-align: center;
+}
+.room{
+    text-align: center;
+}
+.basic{
+    display:inline-block;
+    height: 100%;
+    width: 100%;
+    font-size: large;
+    margin-bottom: 0px;
+}
+.radio{
+    display:inline-block;
+    height: 50px;
+    width: 20%;
+    margin-bottom: 10px;
+    font-size: large;
+}
+/*402*/
+#container402 {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 60px 60px 30px 60px 60px;
+    grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+    border: 2px solid rgb(90, 30, 75);
+    padding: 10px;
+    background: #f7caf5;
+}
+/*1列目*/
+#s211 {
+    grid-row: 1;
+    grid-column: 1 / 4;
+}
+#s212 {
+    grid-row: 1;
+    grid-column:  4 / 7;
+}
+#s213 {
+    grid-row: 1;
+    grid-column: 7 / 10;
+}
+#s214 {
+    grid-row: 1;
+    grid-column: 12 / 15;
+}
+#s215 {
+    grid-row: 1;
+    grid-column: 15 / 18;
+}
+#s216 {
+    grid-row: 1;
+    grid-column: 18 / 21;
+}
+/*2列目*/
+#s221 {
+    grid-row: 2;
+    grid-column: 1 / 4;
+}
+#s222 {
+    grid-row: 2;
+    grid-column: 4 / 7;
+}
+#s223 {
+    grid-row: 2;
+    grid-column: 7 / 10;
+}
+#s224 {
+    grid-row: 2;
+    grid-column: 12 / 15;
+}
+#s225 {
+    grid-row: 2;
+    grid-column: 15 / 18;
+}
+#s226 {
+    grid-row: 2;
+    grid-column: 18 / 21;
+}
+/*3列目*/
+#s231 {
+    grid-row: 4;
+    grid-column: 1 / 4;
+}
+#s232 {
+    grid-row: 4;
+    grid-column: 4 / 7;
+}
+#s233 {
+    grid-row: 4 / 6;
+    grid-column:  8 / 11;
+}
+#s234 {
+    grid-row: 4 / 6;
+    grid-column: 11 / 14;
+}
+#s235 {
+    grid-row: 4 / 6;
+    grid-column: 15 / 18;
+}
+#s236 {
+    grid-row: 4 / 6;
+    grid-column: 18 / 21;
+}
+/*4列目*/
+#s241 {
+    grid-row: 5;
+    grid-column: 1 / 4;
+}
+#s242 {
+    grid-row: 5;
+    grid-column: 4 / 7;
+}

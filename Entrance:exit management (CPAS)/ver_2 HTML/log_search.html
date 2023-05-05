@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="log_search.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <title>Progate</title>
+  </head>
+  <body>
+    <header>
+        <img src="./image/cps.png" class="cps">
+    </header>
+    <main>
+        <div class="btn1">
+            <button class="back" onclick="history.back()"><i class="fa fa-angle-left"></i></button>
+            <button class="back" onclick="location.href='main.html'"><i class="fa fa-home"></i></button>
+            <button class="back1" onclick="location.href='log_all.html'" ><i class="fa fa-search"></i></button>
+        </div>
+        <section class="detail">
+            <h2 class="text1">Log Detail Search</h2>
+            <form action="" method="post">
+                <div>
+                    <label class="text" for="id">ID<br></label>
+                    <input class="s" id="id" type="text" name="id" value="">
+                </div>
+                <div>
+                    <label class="text" for="name">Name<br></label>
+                    <input class="s" id="name" type="text" name="name" value="">
+                </div>
+                <div>
+                    <label class="text" for="labo">Labo<br></label>
+                    <input class="s" id="labo" type="text" name="labo" value="">
+                </div>
+                <div>
+                    <label class="text" for="room">Room<br></label>
+                    <input class="s" id="room" type="text" name="room" value="">
+                </div>
+                <div>
+                    <label class="text" for="date">Date<br></label>
+                    <input class="date1" id="date_y" type="text" name="date_y" value=""><span class="sl">/</span>
+                    <input class="date" id="date_m" type="text" name="date_m" value=""><span class="sl">/</span>
+                    <input class="date" id="date_d" type="text" name="date_d" value="">
+                </div>
+            </form>
+        </section>
+    </main>
+  </body>
+  
+</html>

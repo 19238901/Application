@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="view_other.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <title>Progate</title>
+  </head>
+  <body>
+    <header>
+        <img src="./image/cps.png" class="cps">
+    </header>
+    <main>
+        <div class="btn">
+            <button class="back" onclick="history.back()"><i class="fa fa-angle-left"></i></button>
+            <button class="back" onclick="location.href='main.html'"><i class="fa fa-home"></i></button>
+        </div>
+        <div class="room">
+            <input class="radio" type="button" name="room" value="PROFESSOR" onclick="location.href='view_pro.html'">
+            <input class="radio" type="button"name="room" value="402" onclick="location.href='view_402.html'">
+            <input class="radio" type="button" name="room" value="403" onclick="location.href='view_403.html'">
+            <input class="radio" type="button" name="room" value="404" onclick="location.href='view_404.html'">
+            <input class="radio" type="button" name="room" value="OTHER" onclick="location.href='view_other.html'">
+        </div>
+        <!--other-->
+        <h2 class="str">- OTHER -</h2>
+        <table border="3" class="list">
+            <tr>
+              <th class="list1">ID</th>
+              <th class="list1">NAME</th>
+              <th class="list1">LABO</th>
+              <th class="list1">STATUS</th>
+              <th class="list2">ROOM</th>
+              <th class="list3">DATE</th>
+            </tr>
+            <!--SQL接続後php-->
+        </table>
+    </main>
+  </body>
+</html>

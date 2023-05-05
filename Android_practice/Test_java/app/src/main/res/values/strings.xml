@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test_java</string>
+    <string name="tab_text_1">日報</string>
+    <string name="tab_text_2">シフト</string>
+    <string name="tab_text_3">投薬</string>
+    <string name="tab_text_4">連絡先</string>
+</resources>

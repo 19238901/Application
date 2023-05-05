@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="record.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <title>Progate</title>
+  </head>
+  <body>
+    <header>
+        <img src="./image/cps.png" class="cps">
+    </header>
+    <main>
+        <div class="btn1">
+            <button class="back" onclick="history.back()"><i class="fa fa-angle-left"></i></button>
+            <button class="back" onclick="location.href='main.php'"><i class="fa fa-home"></i></button>
+        </div>
+        <h2 class="str">Please select a status.</h2>
+        <div class="status">
+            <input class="radio" type="button" name="status" value="ENTER" onclick="location.href='record_room.php'">
+            <input class="radio" type="button" name="status" value="LEAVE" onclick="location.href='main.php">
+            <input class="radio" type="button" name="status" value="MEETING" onclick="location.href='record_room.php'">
+        </div>
+        <div class="status">
+            <input class="radio" type="button" name="status" value="CLASS" onclick="location.href='record_room.php'">
+            <input class="radio" type="button" name="status" value="EXPERIMENT" onclick="location.href='record_room.php'">
+            <input class="radio" type="button" name="status" value="OTHER" onclick="location.href='record_room.php'">
+        </div>
+    </main>
+  </body>
+  
+</html>

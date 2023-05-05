@@ -1,0 +1,47 @@
+.title {
+    color: #00665e;
+    font-size:xx-large;
+  }
+.out{
+    float: right;
+    font-size: large;
+    height: 50px;
+    width: 150px;
+}
+footer{
+    margin-top: 30px;
+}
+/*button{*/
+.function{
+    display:inline-block;/*コレ*/
+    height: 100px;
+    width: 30%;
+    margin-bottom: 10px;
+    font-size: large;
+}
+div{
+    text-align: center;
+}
+main{
+    /*background-color: #20234de5;*/
+    width: 100%;
+    height: 400px;
+}
+header{
+    margin-top: 30px;
+    text-align: center;
+}
+.str{
+    text-align: center;
+    /*color : white;*/
+}
+span{
+    color: rgb(255, 0, 0);
+}
+img.cps{
+    width: 100%;
+}
+.hello{
+    margin-left: 20px;
+    /*color : white;*/
+}

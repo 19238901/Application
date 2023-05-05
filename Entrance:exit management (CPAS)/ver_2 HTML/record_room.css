@@ -1,0 +1,77 @@
+.title {
+    color: #00665e;
+    font-size:xx-large;
+  }
+.out{
+    float: right;
+    font-size: large;
+    height: 50px;
+    width: 150px;
+}
+
+header{
+    margin-top: 30px;
+    text-align: center;
+}
+main{
+    /*background-color: #20234de5;*/
+    width: 100%;
+}
+footer{
+    margin-top: 30px;
+}
+/*button{*/
+button{
+    display:inline-block;
+    height: 100px;
+    width: 250px;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+.str{
+    text-align: center;
+    /*color : white;*/
+}
+span{
+    color: rgb(255, 0, 0);
+}
+img.cps{
+    width: 100%;
+}
+.hello{
+    margin-left: 20px;
+    /*color : white;*/
+}
+.back{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: large;
+
+}
+.back i{
+    font-size: 50px;
+    text-align: center;
+	margin-right: 4px;
+	vertical-align: -4px;
+}
+.btn{
+    text-align: left;
+    height: 60px;
+    
+}
+.status{
+    text-align: center;
+}
+.room{
+    text-align: center;
+}
+.radio{
+    display:inline-block;
+    height: 100px;
+    width: 23%;
+    margin-bottom: 10px;
+    font-size: large;
+}
