@@ -6,7 +6,7 @@
   - (C#)
   - HTML
   - PHP
-### Development(InvalidURL)
+### Development (InvalidURL)
 - システム開発 (アルバイト先向け)
   - SwiftUI
   - PHP
